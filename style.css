@@ -1,0 +1,72 @@
+.navbar{
+    margin-bottom: 0;
+}
+
+button .navbar{
+    padding: 15px;
+}
+
+span .navbar{
+    height: 30px;
+    width: 30px;
+}
+
+.jumbotron-extend{
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/image4.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:82vh;
+    color: white;
+    margin-top: 0;
+}
+
+.welcomemessage {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+
+.col-3{
+    border-right: 1px solid #ddd;
+}
+
+.glyphicon{
+    font-size: xx-large;
+    display: inline-block;
+    
+}
+
+.icontitle{
+    font-size: x-large;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mainmenu .row{
+    margin-bottom: auto;
+    padding-bottom: 30px;
+    
+}
+
+.content{
+    padding-top: 30px;
+}
+.menutitle{
+    text-align: center;
+}
+
+.uncolored {
+    height: 100vh;
+    background-color: white;
+}
+
+.colored {
+    height: 100vh;
+    background-color: #f5fffa;
+}
+
+.col-4{
+    display: inline-block;
+}

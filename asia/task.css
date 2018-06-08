@@ -1,0 +1,107 @@
+@charset "UTF-8" body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+
+h1 {
+    text-align: center;
+
+}
+
+
+section h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "fantasy";
+    background-color: #DCDCDC;
+    display: block;
+    padding: 50px;
+}
+
+section h3 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 28px;
+}
+
+section p {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#time {
+    text-align: center;
+
+}
+
+#menu {
+    margin-bottom: 16px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: : 0;
+    padding: 0;
+    text-align: center;
+
+
+}
+
+#menu ul li {
+    display: inline-block;
+    width: 164px;
+    text-align: center;
+
+}
+
+
+
+#mainpic {
+text-align:  center;
+
+}
+
+
+#profilepic img{
+   margin: auto;
+   display: block;
+   margin-bottom: 50px;
+   height: 200px;
+}
+
+#footer{
+    background-color: #D2B48C;
+    text-align: center;
+}
+
+#hobby2 ul{
+    list-style: none;
+    margin: : 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#hobby2 ul li{
+    display: inline-block;
+    text-align: center;
+    width: 164px;
+}
+
+#hobby2 ul li img{
+   border-radius: 75px;
+  height: 150px;
+  width: 150px;   
+}
+
+#hobby2 ul li a img:hover {
+    opacity: 0.5 ;
+    transition:all 0.6s ease;
+}
