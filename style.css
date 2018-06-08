@@ -73,8 +73,8 @@ span .navbar{
 }
 
 .profile img{
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
     
 }
 .uncolored {
@@ -84,7 +84,7 @@ span .navbar{
 
 .colored {
     height: 100vh;
-    background-color: #f5fffa;
+    background-color: #dcdcdc;
 }
 
 .content .col-4{
