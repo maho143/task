@@ -28,7 +28,7 @@ span .navbar{
 }
 
 
-.col-3{
+.mainmenu .col-3{
     border-right: 1px solid #ddd;
 }
 
@@ -53,10 +53,30 @@ span .navbar{
 .content{
     padding-top: 30px;
 }
-.menutitle{
-    text-align: center;
+.content img{
+    width: 100%;
 }
 
+.content{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content p{
+    font-size: large;
+    
+}
+
+.content .row{
+    padding-top: 50px;
+}
+
+.profile img{
+    width: 40%;
+    height: 40%;
+    
+}
 .uncolored {
     height: 100vh;
     background-color: white;
@@ -67,6 +87,50 @@ span .navbar{
     background-color: #f5fffa;
 }
 
-.col-4{
-    display: inline-block;
+.content .col-4{
+    width: 100%;
+    padding: 0;
+}
+
+.col-4 p{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+.col-4 h3{
+    font-size: medium;
+}
+
+.content .col-3{
+    width: 100%;
+    padding: 0;
+}
+
+.content .col-3 img:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -moz-opacity:0.6;
+}
+
+.col-3 p{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
 }
